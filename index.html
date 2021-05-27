@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CloudWork</title>
+</head>
+<body>
+    
+    <div class="top-container">
+        <h1>CloudWork</h1>
+        <hr style="height:3px;border-width:0; background-color:rgb(70, 102, 241)">
+    </div>
+
+
+    <div class="container">
+        <h1>Create a Workload</h1>
+        <h3>Complexity : <span id="comp"></span></h3>
+        <input type="range" min="1" max="10" value="5" id="myrange">
+        <br>
+        <button id="addtodo">Start Work</button>
+    </div>
+    <!-- <hr style="height:3px; width : 350px; border-width:0;color:gray;background-color:gray"> -->
+
+    <br>
+
+    <div class="main-container">
+        <h2 id="justone">Workloads</h2>
+        <div class="to-dos" id="todocontainer">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

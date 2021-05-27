@@ -1,0 +1,71 @@
+html , body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 102, 241);
+}
+
+.top-container{
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.container{
+    width: 360px;
+    border: 2px solid rgb(70, 102, 241);
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 938px;
+}
+.main-container{
+    width: 700px;
+    margin-top: -250px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+#justone{
+    margin-left: -570px;
+}
+.tdcontainer{
+    border: 1px solid rgb(70, 102, 241);
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.para{
+    margin-top: 60px;
+    position: fixed;
+    margin-left: 10px;
+}
+
+.p2{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.btn{
+    width: auto;
+    height: 20px;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+#addtodo{
+    font-size: 16px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(70, 102, 241);
+}
